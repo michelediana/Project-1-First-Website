@@ -1,0 +1,185 @@
+/***********************
+GENERAL
+***********************/
+body{
+  font-family: sans-serif;
+}
+
+#wrapper{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 5%;
+  clear:both;
+}
+
+a{
+ text-decoration:none;
+}
+
+img{
+max-width: 100%;
+}
+
+section{
+  max-width:400px;
+
+}
+
+#background{
+  float:left;
+  width:30%;
+  margin:50px 5% 0 0;
+}
+
+#goal{
+  float:right;
+  width: 40%;
+  margin:50px 0 5% 0;
+
+}
+
+/***********************
+NAVIGATION
+***********************/
+nav {
+  text-align:right;
+  padding: 10px 10px 10px 0;
+  margin:20px 0 0;
+  background-color: #000;
+
+}
+
+nav ul {
+  list-style:none;
+  margin:0 10px;
+  padding:0;
+}
+
+nav li {
+display:inline-block;
+
+}
+
+nav a {
+  color: #555;
+  margin: 5px;
+
+}
+
+
+nav a.selected, nav a:hover{
+  color: #fff;
+}
+
+/***********************
+HEADER
+***********************/
+
+header{
+  float:left;
+  width:100%;
+  margin: 0;
+  background-image:url('../img/header_image.jpg');
+
+}
+
+header h1{
+  text-align:center;
+  color:white;
+
+}
+
+
+#logo{
+  margin: 0 auto;
+  display:block;
+  border-radius: 20%;
+
+}
+
+/***********************
+EXPERIENCE
+***********************/
+#experience{
+  margin: 10%;
+  padding: 10px;
+
+}
+
+
+.profile-photo{
+  float:left;
+  border-radius:100%;
+
+}
+
+
+
+/***********************
+LANGUAGES
+***********************/
+.html{
+  background-color:red;
+  width:20%;
+  border-radius:10%;
+  color:#fff;
+  padding: 3px;
+  text-align:center;
+  float:left;
+  margin:3%
+}
+
+.css{
+  background-color:blue;
+  width:20%;
+  border-radius:10%;
+  color:#fff;
+  padding: 3px;
+  text-align:center;
+  float:left;
+   margin:3%
+}
+
+.javascript{
+  background-color:green;
+  width:22%;
+  border-radius:10%;
+  color:#fff;
+  padding: 3px;
+  text-align:center;
+  float:left;
+  margin:3%
+}
+
+.ajax{
+  background-color:purple;
+  width:20%;
+  border-radius:10%;
+  color:#fff;
+  padding: 3px;
+  text-align:center;
+  float:left;
+   margin:3%
+}
+
+
+/***********************
+FOOTER
+***********************/
+
+footer{
+  font-size: .5em;
+  text-align:center;
+  padding: 30px 0 0;
+  color:#000;
+  clear:both;
+
+}
+
+.social-icon{
+  width: 20px;
+  height:20px;
+  margin:0 3px;
+
+
+}
